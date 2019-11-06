@@ -1,5 +1,6 @@
 h1{
-    width: 50%;
+    height: 100vh;
+    margin: 0;
 }
 
 body{
@@ -7,18 +8,18 @@ body{
 }
 
 #first{
-    background: url("hot.jpg");
-    height: 100vh;
+    background-image: url("hot.jpg");
+    background-size: cover;
 }
 
 #second{
-    background: url("juicy.jpg");
-    height: 100vh;
+    background-image: url("juicy.jpg");
+    background-size: cover;
 }
 
 #third{
-    background: url("cosy.jpg");
-    height: 100vh;
+    background-image: url("cosy.jpg");
+    background-size: cover;
 }
 
 .navbar{
@@ -27,4 +28,6 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
+    text-align: center;
+    padding: 20px;
 }
