@@ -1,0 +1,30 @@
+h1{
+    width: 50%;
+}
+
+body{
+    margin: 0;
+}
+
+#first{
+    background: url("hot.jpg");
+    height: 100vh;
+}
+
+#second{
+    background: url("juicy.jpg");
+    height: 100vh;
+}
+
+#third{
+    background: url("cosy.jpg");
+    height: 100vh;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
