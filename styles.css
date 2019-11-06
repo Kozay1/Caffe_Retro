@@ -1,33 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Spirax&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+* {
+    box-sizing: border-box;
+}
+
 h1{
+    font-size: 80px;
+    color: darkred;
     height: 100vh;
     margin: 0;
+    font-family: 'Spirax';
+    text-align: center;
+    padding-top: 200px;
 }
 
 body{
     margin: 0;
+    background: darkred;
 }
 
 #first{
     background-image: url("hot.jpg");
     background-size: cover;
+    background-position: 50% 50%;
 }
 
 #second{
     background-image: url("juicy.jpg");
     background-size: cover;
+    background-position: 50% 50%;
 }
 
 #third{
     background-image: url("cosy.jpg");
     background-size: cover;
+    background-position: 50% 50%;
+}
+
+p{
+    display: inline-block;
+    font-family: 'Poiret One';
+    font-size: 24px;
+    color: white;
+    background: rgba(163, 6, 6, 0.6);
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
 }
 
 .navbar{
+    font-family: 'Spirax';
     overflow: hidden;
-    background-color: grey;
+    background: rgba(41, 21, 21, 0.5);
     position: fixed;
     top: 0;
     width: 100%;
     text-align: center;
-    padding: 20px;
+    padding: 14px;
+    font-size: 35px;
+}
+
+a{
+    color: white;
+    padding:40px;
+}
+
+#hot1{
+    display: block;
+    margin-left: 300px;
+    margin-right: auto;
+    width: 43%;
+}
+
+#hot2{
+    display: block;
+    margin-left: auto;
+    margin-right: 300px;
+    width: 43%;
+}
+
+#hot3{
+    background: rgba(0, 0, 0, 0.6);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 43%;
 }
